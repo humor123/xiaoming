@@ -1,427 +1,275 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
-	<title>resume</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/resume.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/jquery.eeyellow.Timeline.css" />
-	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>个人简历</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/dong.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/time.css">
 </head>
-<body style="min-width:1300px;">
-	<main></main>
-	<section id="home" class="fixed-bg" style="background-image:url(./picture/cc.jpg);">
-		<div class="title">
-			<div class="count">
-				<div class="img">
-					<img src="./picture/logo.png">
+<body>
+	<main>
+	<!-- 首页 -->
+		<section id="home" class="scroll-sy">
+			<div  class="container" >
+				<div class="cont-sy">
+					<div class="text-center title">
+						<img src="./image/logo.png">
+					</div>
+					<div class="text-center">
+						<h2>董明</h2>
+						<h4>php后台开发</h4>
+					</div>
+					<ul class="list-inline text-center">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JS</li>
+						<li>MySql</li>
+						<li>php</li>
+					</ul> 
 				</div>
-				<h2>董明</h2>
-				<p>php后台工程师</p>
 			</div>
-			<ul>
-				<li>html</li>
-				<li>css</li>
-				<li>js</li>
-				<li>mysql</li>
-				<li>php</li>
-			</ul>
-		</div>
-	</section>
-	
-	<section id="liao" class="scroll-bg goto">
-		<div class="content">
-			<div class="nav">
-				<ul>
-					<li><a class="goto" href="#home">首页</a></li>
-					<li><a class="goto" href="#liao">了解我</a></li>
-					<li><a class="goto"href="#jineng">技能</a></li>
-					<li><a class="goto" href="#xiangmu">项目经历</a></li>
-				</ul>
-			</div>
-			<div class="box">
-				<div class="box1">
-					<div class="kong"></div>
-					<h1>基本信息</h1>
-					<p>自我学习能力强,自觉性高,对待新技术有强烈的好奇心,能够及时丰富自己,工作细心。性格开朗,能很好的融入大集体中,工作中善于沟通交流,保证工作效率,注重团队合作;</p>
-					<div class="zong">
-						<div class="left">
-							<img src="./picture/4.jpg" style="width:100%;height:400px;background-size:cover;margin-left:-144.5px;">
+		</section>
+	<!-- 导航条 -->
+		<section id="nav">
+			 <nav class="nav navbar-default" role="navgation">
+			    <div class="container-fluid">
+			        <div class="navbar-header">
+			            <a href="#" class="navbar-brand">
+			                <img src="./image/time.png" style="width: 30px;height: 30px;">
+			            </a>
+			            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			            </button>
+			        </div>
+			        <div class="collapse navbar-collapse">
+			            <ul class="navbar-nav nav navbar-right">
+			                <li class="active"><a class="goto" href="#home">首页</a></li>
+			                <li><a class="goto" href="#myinfo">个人信息</a></li>
+			                <li><a class="goto" href="#myresume">我的履历</a></li>
+			                <li><a class="goto" href="#myskills">我的技能</a></li>
+			            </ul>
+			        </div>
+			    </div>
+			</nav> 
+		</section>
+		<!-- 基本信息 -->
+		<section id="myinfo">
+			<div class="container">
+				<div class="row myinfo-div">
+					<div class="myinfo-div-zp">
+						<h1>基本信息</h1>
+						<hr/>
+						<p>器必试而先知其利钝，马必骑而后知其良驽。在这里，我不能向您出示任何权威人士的推荐书，也拿不出一摞摞的技能证书作为我的筹码，同样也没有几十年的相关工作经验为我加分。有的只有我的年轻和吃苦耐劳的本性作为我的奠基石。</p><p>自我学习能力强,自觉性高,对待新技术有强烈的好奇心,能够及时丰富自己,工作细心。性格开朗,能很好的融入大集体中,工作中善于沟通交流,保证工作效率,注重团队合作;</p>
+					</div>
+					<div class="myinfo-div-info2">
+						<div class="col-md-4">
+								<p>学校：<span>四川知行软件学院</span></p>
+								<p>专业：<span>计算机网络技术</span></p>
 						</div>
-						<div class="middle">
-							<p>邮箱 :<span>8643243832qq.com</span></p>
+						<div class="col-md-4">
+							<p>电话：<span>18030929781</span></p>
+							<p>邮箱：<span>864324383@qq.com</span></p>
 							<p>地址：<span>成都市高新区</span></p>
-							<p class="name">董明</p>
 						</div>
-						<div class="right">
-							<h4>兴趣与爱好</h4>
-							<ul>
-								<li><p><i class="fa fa-film"></i>影视</p></li>
-								<li><p><i class="fa fa-headphones"></i>&nbsp;音乐</p></li>
-								<li><p><i class="fa fa-book" aria-hidden="true"></i>&nbsp;阅读</p></li>
-								<li><p><i class="fa fa-html5"></i>&nbsp;HTML</p></li>
-								<li><p><i class="fa fa-cutlery"></i>&nbsp;美食</p></li>
+						<div class="col-md-4">
+							<p>兴趣和爱好</p>
+							<ul class="list-inline">
+								<li><h4><i class="fa fa-film"></i>&nbsp;影视</h4></li>
+								<li><h4><i class="fa fa-headphones"></i>&nbsp;音乐</h4></li>
+								<li><h4><i class="fa fa-book" aria-hidden="true"></i>&nbsp;阅读</h4></li>
+								<li><h4><i class="fa fa-html5"></i>&nbsp;HTML</h4></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section id="jineng" class="fixed-bg goto">
-		<div class="header">
-			<div class="ji">
-				<div class="grg"></div>
-				<h2>我会什么</h2>
+		</section>	
+		<!-- 我的履历 -->
+		<section id="myresume">
+			<div class="container">
+			<div class="page-header">
+			    <h1 id="timeline" class="text-center">我的履历</h1>
+			    <hr/>
 			</div>
-			<div class="shu">
-				<div class="1">
-					<p id="value1">0<sapn>%</sapn></p>
-					<canvas id="cvs" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>HTML5/CSS3</h2>
-						<span>熟练运用HTML4，熟悉HTML5新增的标签及其应用。运用HTML5制作了2个微信服务号。</span>
-					</div>
-				</div>
-				<div class="2">
-					<p id="value2">70<sapn>%</sapn></p>
-					<canvas id="cvs1" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>JAVASCRIPT/JQUERY</h2>
-						<span>能够掌握javascript的一系列语法,运用相关的活动</span>
-					</div>
-				</div>
-				<div class="3">
-					<p id="value3">85<span>%</span></p>
-					<canvas id="cvs2" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>MYSQL</h2>
-						<span>熟悉运用mysql的一系列增删改查,从数据库中拿出数据渲染,调试数据库</span>
-					</div>
-				</div>
-				<div class="4">
-					<p id="value4">80<sapn>%</sapn></p>
-					<canvas id="cvs3" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>PHP/THINKPHP</h2>
-						<span>熟悉并掌握php的一系列用法,并掌握thinkphp框架及基本用法</span>
-					</div>
-				</div>
-				<div class="5">
-					<p id="value5">85<sapn>%</sapn></p>
-					<canvas id="cvs4" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>HTML/CSS</h2>
-						<span>熟练运用HTML，熟悉HTML新增的标签及其应用。</span>
-					</div>
-				</div>
-				<div class="6">
-					<p id="value6">70<sapn>%</sapn></p>
-					<canvas id="cvs5" width="350" height="220" border="1px solid black"></canvas>
-					<div class="angre">
-						<h2>开发工具</h2>
-						<span>能够熟悉使用sublime,vtom等工具</span>
-					</div>
-				</div>
+			<div class="page-div"><h3>项目经验</h3></div>
+			<ul class="timeline">
+			  <li>
+			    <div class="timeline-badge"><i class="fa fa-bold"></i></div>
+			    <div class="timeline-panel">
+			      <div class="timeline-heading">
+			        <h4 class="timeline-title">BBS论坛</h4>
+			        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2016.11.02~2016.11.10</small></p>
+			      </div>
+			      <div class="timeline-body">
+			        <p>主要工作：包含了数据库建表，论坛主页面、登录注册窗口、发帖，回帖，回复，删帖，顶贴等。</p>
+			        <p>用到的工具：
+			        ThinkPHP框架，开发工具包括WampServer、Sublime Text、MySQL。</p>	        
+			      </div>
+			    </div>
+			  </li>
+			  <li class="timeline-inverted">
+			    <div class="timeline-badge warning"><i class="fa fa-hospital-o"></i></div>
+			    <div class="timeline-panel">
+			      <div class="timeline-heading">
+			        <h4 class="timeline-title">中药管理系统</h4>
+			        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2016.11.15~2016.12.13</small></p>
+			      </div>
+			      <div class="timeline-body">
+			        <p>主要功能：医生处方、药品进销存管理。<br/>主要工作：业务流程分析，表结构分析，数据表创建，医生开具、查询、复用、撤销处方，以及设置和管理经验处方，基础数据维护，药房药库药品的进销存管理。<br/>
+			        我的工作：业务流程分析，分析结构，建表。用户创建，登录验证，实现经验方(开经验方,经验方详情,编辑经验方),处方处理(处方开具,处方增删改)以及部分前端页面的数据渲染。</p>
+			      </div>
+			    </div>
+			  </li>
+			  <li>
+			    <div class="timeline-badge danger"><i class="fa fa-futbol-o"></i></div>
+			    <div class="timeline-panel">
+			      <div class="timeline-heading">
+			        <h4 class="timeline-title">Keep健身</h4>
+			        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2017.2.20~2017.03.09</small></p>
+			      </div>
+			      <div class="timeline-body">
+			        <p>采用HTML5/CSS3，用React布局制作的Keep健身教练App。实时获取数据进行页面渲染。同时还使用了Webpack自动打包技术，自动打包文件，刷新页面，非常方便高效</p>
+			      </div>
+			    </div>
+			  </li>
+			</ul>
+			<div class="page-div"><h3>教育经历</h3></div>
+			<ul class="timeline" style="padding:30px 10px;">
+				<li class="timeline-inverted">
+			    <div class="timeline-badge warning"><i class="fa fa-hospital-o"></i></div>
+			    <div class="timeline-panel">
+			      <div class="timeline-heading">
+			        <h4 class="timeline-title">四川知行软件学院</h4>
+			        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2014.09~2017.06</small></p>
+			      </div>
+			      <div class="timeline-body">
+			        <p>在校期间 努力学习</p>
+			      </div>
+			    </div>
+			  </li>
+			  <li>
+			    <div class="timeline-badge danger"><i class="fa fa-futbol-o"></i></div>
+			    <div class="timeline-panel">
+			      <div class="timeline-heading">
+			        <h4 class="timeline-title">三台县第一中学</h4>
+			        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2011.09~2014.06</small></p>
+			      </div>
+			      <div class="timeline-body">
+			        <p></p>
+			      </div>
+			    </div>
+			  </li>
+			</ul> 
 			</div>
-		</div>
-	</section>
-
+		</section>	
 	
-	<section class="time goto">
-		<div class="jianli">
-			<p>实战经验</p>
-		</div>
-		<div class="container">
-		  <div class="row">
-		    <div class="col-md-12">
-		      <div class="VivaTimeline">
-		        <dl>
-		          <dt>2016 9月</dt>
-		          <dd class="pos-left clearfix">
-		          <div class="circ"></div>
-		              <div class="time"></div>
-		              <div class="events">
-		                    <div class="events-header">城市级联</div>
-		                    <div class="events-body">
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                                </div>
-		                                <div class="events-desc">
-		                                  ......
-		                                </div>
-		                          </div>
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                              </div>
-		                              <div class="events-desc">
-		                                  ......
-		                              </div>
-		                          </div>
-		                    </div>
-		                    <div class="events-footer" style="cursor:pointer;">
-		                        主要通过jquery,ajax获取本地数据,并把数据渲染出来,在通过html,css修饰并调整页面,最后通过js添加一系列点击事件。
-		                    </div>
-		              </div>
-		          </dd>
-
-		          <!-- 其它时间节点 -->
-		          <dt>2016 9月</dt>
-		          <dd class="pos-right clearfix">
-		          <div class="circ"></div>
-		              <div class="time"></div>
-		              <div class="events">
-		                    <div class="events-header">飞机大战</div>
-		                    <div class="events-body">
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                                </div>
-		                                <div class="events-desc">
-		                                  ......
-		                                </div>
-		                          </div>
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                              </div>
-		                              <div class="events-desc">
-		                                  ......
-		                              </div>
-		                          </div>
-		                    </div>
-		                    <div class="events-footer" style="cursor:pointer;">
-		                       	主要用html进行页面搭建,然后使用js对象方式写飞机的移动定位,碰撞检测,再用轮巡器敌机自动生成。
-		                    </div>
-		              </div>
-		          </dd>
-		          <dt>2016 10月</dt>
-		          <dd class="pos-left clearfix">
-		          <div class="circ"></div>
-		              <div class="time"></div>
-		              <div class="events">
-		                    <div class="events-header">BBS论坛</div>
-		                    <div class="events-body">
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                                </div>
-		                                <div class="events-desc">
-		                                  ......
-		                                </div>
-		                          </div>
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                              </div>
-		                              <div class="events-desc">
-		                                  ......
-		                              </div>
-		                          </div>
-		                    </div>
-		                    <div class="events-footer" style="cursor:pointer;">
-		                       	<p>项目介绍:</p>
-								<span>“论坛”包含了论坛主页面、登录注册窗口、发帖,回帖,回复,删帖,顶贴等。</span>
-								<p>在项目中:</p>
-								<span>我主要负责项目前端页面的渲染以及后端功能的开发</span>
-		                    </div>
-		              </div>
-		          </dd>
-		          <dt>2016 12月</dt>
-		          <dd class="pos-right clearfix">
-		          <div class="circ"></div>
-		              <div class="time"></div>
-		              <div class="events">
-		                    <div class="events-header">中医药管理系统</div>
-		                    <div class="events-body">
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                                </div>
-		                                <div class="events-desc">
-		                                  ......
-		                                </div>
-		                          </div>
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                              </div>
-		                              <div class="events-desc">
-		                                  ......
-		                              </div>
-		                          </div>
-		                    </div>
-		                    <div class="events-footer" style="cursor:pointer;">
-		                        “中药管理系统”允许药房人员完成药品的进销存操作；在院医生通过工作站下达处方；收费人员通过处方内容完成收费；药房工作人员通过处方内容调配药品和发药并可以查询操作记录和形成报表。详细的项目描述详见中药管理系统前景和范围文档。文档中这一部分的标题为“初始版本和后续版本的范围”，列出了按照进度计划在这一版本中实现的全部或部分功能。
-		                        <p>我的任务:</p>
-		                        我主要负责用AdminLTE-2.3.11框架进行前端代码的编写，以及用thinkPHP框架实现后端功能实现，处方处理和经验方管理
-		                    </div>
-		              </div>
-		          </dd>
-		          <dt>2016 2月</dt>
-		       	  <dd class="pos-left clearfix">
-		          <div class="circ"></div>
-		              <div class="time"></div>
-		              <div class="events">
-		                    <div class="events-header">keep</div>
-		                    <div class="events-body">
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                                </div>
-		                                <div class="events-desc">
-		                                  ......
-		                                </div>
-		                          </div>
-		                          <div class="row">
-		                            <div class="col-md-6 pull-left">
-		                              </div>
-		                              <div class="events-desc">
-		                                  ......
-		                              </div>
-		                          </div>
-		                    </div>
-		                    <div class="events-footer" style="cursor:pointer;">
-		                        主要通过react主键式完成,主要完成keep主页面及附页面的渲染,通过ajax线上获取虚拟数据,并实现该页面的一系列功能,react主键中主要有ui主键,功能性主键。
-		                    </div>
-		              </div>
-		          </dd>
-		        </dl>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<div class="fooy"></div>
-	</section>
-	<section id="xiangmu" class="scroll-exp goto" style="background-image: url(./picture/lu2.jpg);">
-		<div class="div-main">
-				<div class="scroll-title">
-					<h5></h5>
-					<h1>实战经验</h1>
-					<h5></h5>
-				</div>
-				<div class="scroll-content">
-					<div class="scroll-cont01-xt">
-						<h3>中医药管理系统</h3>
-						<p>项目介绍：</p>
-						<h4>“中药管理系统”允许药房人员完成药品的进销存操作；在院医生通过工作站下达处方；收费人员通过处方内容完成收费；药房工作人员通过处方内容调配药品和发药并可以查询操作记录和形成报表。详细的项目描述详见中药管理系统前景和范围文档。文档中这一部分的标题为“初始版本和后续版本的范围”，列出了按照进度计划在这一版本中实现的全部或部分功能。</h4>
-						<p>在项目中:</p>
-						<h4>我主要负责用AdminLTE-2.3.11框架进行前端代码的编写，以及用thinkPHP框架实现后端功能实现，处方处理和经验方管理</h4>
+		<!-- 技能 -->
+		<section id="myskills">
+			<div class="container">
+				<div class="row myskills-div">
+					<div class="text-center">
+						<h1>我会什么</h1>
+						<hr/>
 					</div>
-					<div class="line"></div>
-					<div class="scroll-cont01-bbs">
-						<h3>BBS论坛</h3>
-						<p>项目介绍：</p>
-						<h4>“论坛”包含了论坛主页面、登录注册窗口、发帖，回帖，回复，删帖，顶贴等。</h4>
-						<p>在项目中:</p>
-						<h4>我主要负责项目前端页面的渲染以及后端功能的开发</h4>
+					<div class="myskills-div-01">
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>							
+							<div class="skill-cont">
+								<h3>HTML5/CSS3</h3>
+								<p>熟练运用HTML，熟悉HTML5新增的标签及其应用。运用HTML5制作了个人简历。</p>
+							</div> 
+						</div>
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>JAVASCRIPT/JQUERY</h3>
+								<p>掌握JavaScript脚本语言的语法，运用原生态的代码写出简单效果；了解jQuery方法。</p>
+							</div> 
+						</div>
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>MYSQL</h3>
+								<p>熟练掌握mysql的语法,并且掌握sql一系列操作</p>
+							</div> 
+						</div>
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>PHP</h3>
+								<p>熟悉PHP的基本语法和操作。运用thinkPHP框架,adminlte框架小组完成了中医药系统管理的开发。</p>
+							</div> 
+						</div>
+					</div>
+					<div class="myskills-div-02">
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>后台框架</h3>
+								<p>熟悉bootstrap,AdminLTE,ace,thinkphp</p>
+							</div> 
+						</div>
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>开发工具</h3>
+								<p>熟悉SVN,Git,node.js,xshell,wamppserver等开发工具</p>
+							</div> 
+						</div>
+						<div class="col-md-3 text-center">
+							<div class="canvas">
+								<h2></h2>
+								<canvas width="212" height="212"></canvas>
+							</div>
+							<div class="skill-cont">
+								<h3>代码编辑器</h3>
+								<p>平时用Sublime Text,vtom这款代码编辑器,功能强大,并能运用插件提高工作效率。</p>
+							</div> 
+						</div>
 					</div>
 				</div>
 			</div>
-	</section>
-	<section class="scroll-footer" id="exp" >
-			<div class="div-main">
-				<p> @Copyright 2017 by dongming</p>
-				<p>不断努力，超越自我</p>
+		</section>
+		
+		<!-- 尾部 -->
+		<section id="footer">
+			<div class="text-center footer-div">
+				<p>@Copyright 2017 by Dong Ming</p>
+				<p>世上无难事,只要肯登攀。</p>
 			</div>
-	</section>
-	<script type="text/javascript" src="js/jquery-1.12.1.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.eeyellow.Timeline.js"></script>      
-	<script type="text/javascript">
-		/**平滑移动**/
-		$('.goto').click(function () {
-            $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top
-            }, 500);
-            return false;
-		});
-		
-		/**轮播图**/
-		// $("mihuan1").mouseover(function(){
-		//   $("mihuan1").css("background","blue");
-		// });
+		</section>
 
 
-		var content = document.querySelector(".content");
-		var nav = document.querySelector(".nav");
-		var val = document.querySelector("#value1");
-		var val1 = document.querySelector("#value2");
-		var val2 = document.querySelector("#value3");
-		var val3 = document.querySelector("#value4");
-		var val4 = document.querySelector("#value5");
-		var val5 = document.querySelector("#value6");
-		
-		window.onscroll = function(){
-			var _top = content.offsetTop - window.scrollY;
-			if(_top<=0){
-				nav.style.position="fixed";
-				nav.style.top="0"
-			}else{
-				nav.style.position="";
-			}
-		}
 
-		var arr = [80,70,85,80,85,70];
 
-		lunxun(val,arr[0]);
-		lunxun(val1,arr[1]);
-		lunxun(val2,arr[2]);
-		lunxun(val3,arr[3]);
-		lunxun(val4,arr[4]);
-		lunxun(val5,arr[5]);
-		function lunxun(val,aa){
-			var number = 0;
-			var sid = setInterval(function(){
-				if(number >= aa){
-					clearInterval(sid);
-				}else{
-					number++;
-				}
-				val.textContent = number+"%";
-			},1000/20);
-		}
-
-		var cvs = document.querySelector("#cvs");
-		var cvs1 = document.querySelector("#cvs1");
-		var cvs2 = document.querySelector("#cvs2");
-		var cvs3 = document.querySelector("#cvs3");
-		var cvs4 = document.querySelector("#cvs4");
-		var cvs5 = document.querySelector("#cvs5");
-
-		var ctx = cvs.getContext("2d");
-		var ctx1 = cvs1.getContext("2d");
-		var ctx2 = cvs2.getContext("2d");
-		var ctx3 = cvs3.getContext("2d");
-		var ctx4 = cvs4.getContext("2d");
-		var ctx5 = cvs5.getContext("2d");
-
-		drawScore(80,ctx);
-		drawScore(70,ctx1);
-		drawScore(85,ctx2);
-		drawScore(80,ctx3);
-		drawScore(85,ctx4);
-		drawScore(70,ctx5);
-			
-		function drawScore(num,ctx){
-			var _num =  num / 100  * 360;
-			var index = 0;
-			var number = 0;
-			ctx.lineWidth = 15;
-			ctx.strokeStyle="red";
-			var sid = setInterval(function(){
-				if(_num <= index){
-					clearInterval(sid);
-				}else{
-					ctx.clearRect(0,0,500,500);
-					ctx.beginPath();
-					ctx.arc(280,145,62,Math.PI /180 * -91,Math.PI / 180 * (index - 90),false);
-					ctx.stroke();
-					index++;
-				}
-			},1000/60);
-		}
-
-	</script>
+	</main>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jl.js"></script>
 </body>
 </html>
-
-<!-- css 样式表比重分级
-（外部样式）External style sheet <（内部样式）Internal style sheet <（内联样式）Inline style
- -->
