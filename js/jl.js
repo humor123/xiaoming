@@ -42,7 +42,7 @@ $(function(){
 // 画圆圈圈
   var cvs = document.querySelectorAll(".canvas canvas");
   var num = document.querySelectorAll(".canvas h2");
-  var arr = [80,80,85,70,85,90,90];
+  var arr = [80,70,85,80,85,90,90];
   var state = true;
   var skills = document.querySelector("#myskills");
 
